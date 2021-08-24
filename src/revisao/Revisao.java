@@ -77,7 +77,7 @@ public class Revisao {
           
         }
      
-        System.out.println("ArrayList");
+       System.out.println("ArrayList");
 
     for (int i = 0; i < valores.size(); i++) {
 
@@ -95,11 +95,11 @@ public class Revisao {
 
     System.out.println("ArrayList-Impressão 3");
 
-    valores.forEach(_item -> {
-
-      System.out.println("Valor: " + valores.toString());
-
-    });
+    System.out.println("Valores: " + valores.toString());
+    
+     
+    
+    
     }
     
 }
