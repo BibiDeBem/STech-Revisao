@@ -44,10 +44,9 @@ public class IMC {
         } else if (imc <= 30) {
         System.out.printf(nome + " seu IMC é: %.2f, e define Sobrepeso.", imc);
         } else {
-        System.out.printf(nome + " seu IMC é: %2.f, e define Obesidade.", imc);
+        System.out.printf(nome + " seu IMC é: %.2f, e define Obesidade.", imc);
         }
-        System.out.println("");
-        System.out.println(df.format(imc));
+       
         
         
     }
